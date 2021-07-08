@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BootCampCS</title>
+	<link rel="stylesheet" type="text/css" href="css/betting.css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    
+</head>
+<body>
+    <div class="container">
+        <form>
+              <input type="text" name="lotternumber" class="lotternumber"></input>
+        </form>
+        
+        <div class="status">
+            <h3>status</h3>
+            <input type="checkbox" value="cricket" name="check" onclick="btn(this)" />&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" value="football" name="check" onclick="btn(this)" />
+        </div>
+        <button id="paging" class="paging_index"></button>
+        <div class="money"></div>
+        <div class="box">
+            <button id="buylottery00" class="lottery00">
+                <h2 class="text">###</h2>
+            </button>
+            <button id="buylottery01" class="lottery01">
+                <h2 class="text">###</h2>
+            </button>
+            <button id="buylottery02" class="lottery02">
+                <h2 class="text">###</h2>
+            </button>
+            <button id="buylottery03" class="lottery03">
+                <h2 class="text">###</h2>
+            </button>
+            <button id="buylottery04" class="lottery04">
+                <h2 class="text">###</h2>
+            </button>
+            <button id="buylottery05" class="lottery05">
+                <h2 class="text">###</h2>
+            </button>
+            <button id="buylottery06" class="lottery06">
+                <h2 class="text">###</h2>
+            </button>
+            <button id="buylottery07" class="lottery07">
+                <h2 class="text">###</h2>
+            </button>
+            <button id="buylottery08" class="lottery08">
+                <h2 class="text">###</h2>
+            </button>
+            <button id="buylottery09" class="lottery09">
+                <h2 class="text">###</h2>
+            </button>
+            <button id="buylottery10" class="lottery10">
+                <h2 class="text">###</h2>
+            </button>
+            <button id="buylottery11" class="lottery11">
+                <h2 class="text">###</h2>
+            </button>
+            <button id="buylottery12" class="lottery12">
+                <h2 class="text">###</h2>
+            </button>
+            <button id="buylottery13" class="lottery13">
+                <h2 class="text">###</h2>
+            </button>
+            <button id="buylottery14" class="lottery14">
+                <h2 class="text">###</h2>
+            </button>
+            <button id="buylottery15" class="lottery15">
+                <h2 class="text">###</h2>
+            </button>
+            <button id="buylottery16" class="lottery16">
+                <h2 class="text">###</h2>
+            </button>
+            <button id="buylottery17" class="lottery17">
+                <h2 class="text">###</h2>
+            </button>
+            <button id="buylottery18" class="lottery18">
+                <h2 class="text">###</h2>
+            </button>
+            <button id="buylottery19" class="lottery19">
+                <h2 class="text">###</h2>
+            </button>
+            <button id="buylottery20" class="lottery20">
+                <h2 class="text">###</h2>
+            </button>
+            <button id="buylottery21" class="lottery21">
+                <h2 class="text">###</h2>
+            </button>
+            <button id="buylottery22" class="lottery22">
+                <h2 class="text">###</h2>
+            </button>
+            <button id="buylottery23" class="lottery23">
+                <h2 class="text">###</h2>
+            </button>
+            <button id="buylottery24" class="lottery24">
+                <h2 class="text">###</h2>
+            </button>
+        </div>
+    </div>
+    <div class="confirmpopup">
+        <div class="popup">
+            <button class="buy">YES</button>
+            <button class="close">NO</button>
+        </div>
+    </div>
+    <div class="paging">
+        <div class="popuppaging">
+            <div class="closeing">X</div>
+            <div class="">
+
+            </div>
+        </div>
+    </div>
+    <script>
+        function btn(checkbox) {
+          var checkboxes = document.getElementsByName('check')
+          checkboxes.forEach((item) => {
+            if (item !== checkbox) item.checked =  false
+          })
+        }
+    </script>
+    <script src="js/close.js"></script>
+    <script src="js/paging.js"></script>
+</body>
+</html>
